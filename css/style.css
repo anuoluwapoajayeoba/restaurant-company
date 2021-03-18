@@ -1,51 +1,13 @@
-.top ul li{
-    display: inline-block;
-    list-style: none;
+button{
+    position: absolute;
+    border-radius: 10px;
+    background-color: #192666;
+    font-size: 25px;
+    padding: 5px;
+    margin: -0.3em 0 0 21em;
+    color: #fff;
+    border: 5px;
 }
-.top{
-    background-color: green;
-    padding: 1px;
-}
-nav ul li{
-    display: inline-block;
-    list-style: none;
-    text-transform: uppercase;
-    float: right;
-    margin-right: 10px;
-    color: rgb(238, 104, 231);
-    padding: 10px; 
-}
-
-nav ul li:hover{ 
-    background: rgb(241, 219, 219);
-    border-radius: 10em;
-    
-}
-
-nav{
-    background-color: rgb(196, 214, 146);
-    margin-top: -17px;
-    padding: 10px;  
-}
-.logo{
-    /* position: absolute; */
-    min-width: 1%; 
-    min-height: 2vh; 
-}
-
-.wrapper{
-    background-color: rgb(234, 237, 241);
-    padding: 5em;
-    margin-top:-1.2em ;
-}
-div img{
-    width: 100%;
-    height: 50vh;
-}
- .wrapper h3{
-     font-family: Arial, Helvetica, sans-serif;
-
-}
-.wrapper p{
-    font-size: 2em;
+button:hover{
+    color: aqua;
 }
